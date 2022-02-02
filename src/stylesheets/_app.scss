@@ -1,0 +1,68 @@
+ul {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: none;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $typography;
+  &:hover, &:active, &:focus {
+    text-decoration: none;
+    color: $main-color;
+  }
+}
+
+input {
+  margin: 20px 0px 20px 0px;
+}
+
+select {
+  margin: 20px 0px 20px 0px;
+}
+
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled]
+.form-control {
+  background-color: #fff;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+h4 {
+  color: $main-color;
+}
+
+.icons {
+  fill: $main-color;
+}
+
+button.icons>svg>path {
+  fill: $main-color;
+}
+
+body {
+  font-size: 15px;
+}
+
+.align-center {
+  text-align : center;
+}
+
+.rc-calendar-picker {
+  z-index: 10000 !important;
+}
+
+.option {
+  font-size: 17px;
+}
+
+.row {
+  display: block;
+}

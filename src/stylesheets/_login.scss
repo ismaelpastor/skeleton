@@ -1,0 +1,24 @@
+ .title {
+    display: table;
+    margin: 0 auto;
+    padding: 10%;
+    font-size: 50px;
+    font-weight: 900;
+    color: $title;
+  }
+
+  .box-login {
+    padding: 10%;
+    border: 2px solid;
+    border-radius: 5px;
+    align-self: center;
+    color: $title;
+
+    .button-right {
+      float: right;
+    }
+
+  }
+
+
+
